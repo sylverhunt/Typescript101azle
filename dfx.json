@@ -1,0 +1,12 @@
+{
+    "canisters": {
+      "message_board": {
+        "type": "custom",
+        "build": "npx azle message_board",
+        "root": "src",
+        "ts": "src/index.ts",
+        "wasm": ".azle/message_board/message_board.wasm",
+        "gzip": true
+      }
+    }
+  }
